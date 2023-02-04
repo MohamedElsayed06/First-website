@@ -2,17 +2,21 @@
 body {
   background: #cdabe4;
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
 }
 
 .topbar {
   background: white;
   padding: 1em;
+  position: fixed;
+  width: 100%;
 }
 .topbar .Logo {
   text-decoration: none;
   font-weight: bold;
   color: grey;
   font-size: 1.3em;
+  margin-right: 1em;
 }
 .topbar .Logo span {
   color: #ce6808;
@@ -64,6 +68,43 @@ body {
   width: 97%;
 }
 
+.offer-section {
+  background-color: antiquewhite;
+}
+.offer-section ul {
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+.offer-section ul li {
+  margin-top: 2em;
+  padding-left: 1em;
+}
+
+.contact-information h2 {
+  margin-bottom: 3em;
+}
+.contact-information .container-2 {
+  display: flex;
+  align-items: center;
+}
+.contact-information .container-2 .phone-number-contact {
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 1.5em;
+}
+.contact-information .container-3 {
+  display: flex;
+  align-items: center;
+}
+.contact-information .container-3 .email-contact {
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 0.8em;
+}
+.contact-information .phone-numbers {
+  font-size: large;
+}
+
 a {
   color: rgb(51, 51, 51);
 }
@@ -74,4 +115,9 @@ ul {
 
 section {
   padding: 3em;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */
