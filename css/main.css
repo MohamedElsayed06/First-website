@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+body {
+  background: #cdabe4;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.topbar {
+  background: white;
+  padding: 1em;
+}
+.topbar .Logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+  font-size: 1.3em;
+}
+.topbar .Logo span {
+  color: #ce6808;
+}
+.topbar nav {
+  display: none;
+}
+.topbar .container {
+  display: flex;
+  place-content: space-between;
+}
+
+.hero {
+  text-align: center;
+}
+.hero .left-col .subhead {
+  color: darkslategray;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.hero .left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+}
+.hero .left-col .hero-cta .primary-cta {
+  text-decoration: none;
+  background: rgb(182, 80, 230);
+  padding: 0.7em;
+  border-radius: 1.3em;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  margin-right: 1em;
+}
+.hero .left-col .hero-cta .pricing-cta {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  background: rgb(182, 80, 230);
+  padding: 0.7em 1.6em;
+  border-radius: 1.3em;
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.hero .left-col .hero-cta img {
+  margin-top: 2em;
+  width: 97%;
+}
+
+a {
+  color: rgb(51, 51, 51);
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 3em;
+}/*# sourceMappingURL=main.css.map */

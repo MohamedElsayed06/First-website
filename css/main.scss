@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+
+body {
+    background: #cdabe4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topbar {
+    background: white;
+    padding: 1em;
+
+    .Logo {
+        text-decoration: none;
+        font-weight: bold;
+        color:grey;
+        font-size: 1.3em;
+        span{
+            color: #ce6808;
+        }
+
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .container{
+        display: flex;
+        place-content: space-between;
+    }
+}
+
+.hero{
+    text-align: center;
+    .left-col{
+        .subhead{
+            color: darkslategray;
+            letter-spacing: .1em;
+            font-weight: bold;
+            font-size: 1.3em;
+            
+        }
+        h1{
+            font-size: 2.5em;
+            line-height: 1.3em;
+        }
+        .hero-cta{
+            .primary-cta {
+                text-decoration: none;
+                background: rgb(182, 80, 230);
+                padding: 0.7em ;
+                border-radius: 1.3em;
+                font-weight: bold;
+                font-size: large;
+                display: inline-block;
+                margin-right: 1em;
+            }
+            .pricing-cta{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: large;
+                background:rgb(182, 80, 230);
+                padding: 0.7em 1.6em;
+                border-radius: 1.3em;
+                display: inline-block;
+                margin-top: 1em;
+                margin-right: 1em;
+                
+            }
+            img{
+                margin-top: 2em;
+                width: 97%;
+            }
+        }
+        
+        
+    }
+}
+
+
+a{
+    color: rgb(51, 51, 51);
+}
+
+ul{
+    list-style-type: none;
+}
+
+section{
+    padding: 3em;
+}
