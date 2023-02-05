@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
 body {
-  background: #cdabe4;
+  background: #dddada;
   font-family: "Ubuntu", sans-serif;
   margin: 0;
 }
@@ -31,20 +31,25 @@ body {
 
 .hero {
   text-align: center;
+  background: rgb(35, 48, 48);
 }
 .hero .left-col .subhead {
-  color: darkslategray;
+  color: rgb(197, 197, 197);
   letter-spacing: 0.1em;
   font-weight: bold;
   font-size: 1.3em;
+  padding-bottom: 1.5em;
 }
 .hero .left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
+  color: white;
+  margin-bottom: 6em;
 }
 .hero .left-col .hero-cta .primary-cta {
   text-decoration: none;
-  background: rgb(182, 80, 230);
+  background: #093145;
+  color: white;
   padding: 0.7em;
   border-radius: 1.3em;
   font-weight: bold;
@@ -53,10 +58,11 @@ body {
   margin-right: 1em;
 }
 .hero .left-col .hero-cta .pricing-cta {
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: large;
-  background: rgb(182, 80, 230);
+  background: #093145;
   padding: 0.7em 1.6em;
   border-radius: 1.3em;
   display: inline-block;
@@ -66,18 +72,20 @@ body {
 .hero .left-col .hero-cta img {
   margin-top: 2em;
   width: 97%;
+  display: none;
 }
 
 .offer-section {
   background-color: antiquewhite;
 }
 .offer-section ul {
-  padding-bottom: 5em;
-  padding-top: 5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 .offer-section ul li {
   margin-top: 2em;
   padding-left: 1em;
+  font-weight: bold;
 }
 
 .contact-information h2 {
@@ -100,6 +108,15 @@ body {
   font-weight: bold;
   font-size: larger;
   margin-left: 0.8em;
+}
+.contact-information .container-4 {
+  display: flex;
+  align-items: center;
+}
+.contact-information .container-4 .location {
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 1.2em;
 }
 .contact-information .phone-numbers {
   font-size: large;
